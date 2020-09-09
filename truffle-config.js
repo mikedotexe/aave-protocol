@@ -1,12 +1,6 @@
-/**
- * Audius Smart Contracts truffle configuration
- * @authors Hareesh Nagaraj, Sid Sethi, Roneil Rumburg
- * @version 0.0.1
- */
-
 const { NearProvider, nearlib, utils } = require('near-web3-provider');
 // Because we're using a function-call access key, this is the same as the NEAR_LOCAL_EVM
-const NEAR_LOCAL_ACCOUNT_ID = 'audius.demo.testnet';
+const NEAR_LOCAL_ACCOUNT_ID = 'aave.demo.testnet';
 const NEAR_LOCAL_NETWORK_ID = 'default';
 const NEAR_LOCAL_URL = 'https://rpc.testnet.near.org';
 const NEAR_EXPLORER_URL = 'https://explorer.testnet.near.org';
